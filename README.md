@@ -9,6 +9,7 @@ You can follow along with this project by reading the [documentation](https://ci
 ### set environment
 
 1. Create your `app.env` file from the example file: `cp .env.app.testing app.env`
+
 ```
 POSTGRES_HOST=db
 PGUSER=postgres
@@ -17,6 +18,7 @@ RAILS_ENV=development
 ```
 
 2. Create your `db.env` file from the example file: `cp .env.db.testing db.env`
+
 ```
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
@@ -45,3 +47,5 @@ Navigate to http://localhost:3000
 Copyright (c) 2019 CircleCI
 
 Distributed under the MIT License. See the file COPYING.
+
+First commit
